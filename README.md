@@ -119,6 +119,7 @@ replies, which are checked by hand in the room.
 - Calls that drop before `save_lead` are not saved.
 - The free hosted models used by the Switch agents may use prompts for provider training,
   so only fake test leads were used in the demo.
+ - Docker packaging (planned): a Dockerfile so the server and Switch handoff run with one command.
 
 ## Stack
 FastAPI, Twilio Media Streams, OpenAI Realtime API, SQLite, Switch (Console, local server,
